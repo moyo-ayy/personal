@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e1e1e1;
+  padding-bottom: 100px;
 }
 
 code {
@@ -109,11 +110,12 @@ code {
 }
 
 .description{
-  margin-top: 50px;
+  margin-top: 20px;
   width: 60vw;
   min-height: 300px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   background-color: #2f2e2e;
+  color: white;
 }
 
 .description .top{
@@ -135,7 +137,6 @@ code {
 .description .bottom{
   padding: 10px;
   text-align: left;
-  color: white;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -153,16 +154,16 @@ code {
 }
 
 .projects{
-  margin-top: 60px;
+  margin-top: 10px;
   height: 200px;
   font-family: "American Typewriter", sans-serif;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   /* display: none; */
 }
 
-.projects .folder{
+.projects .doc{
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -170,6 +171,44 @@ code {
   cursor: pointer;
 }
 
-.projects .folder:hover{
+.doc img{
+  height: 80px;
+}
+
+.projects .doc:hover{
   background-color:#a3b9c8;
 }
+
+#window1{
+  display: none;
+}
+
+#window2{
+  display: none;
+}
+
+#window3{
+  display: none;
+}
+
+#window1.description{
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#window2.description{
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#window3.description{
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
