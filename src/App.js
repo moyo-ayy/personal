@@ -6,6 +6,7 @@ import outlook from './assets/outlook.svg';
 import gmail from './assets/gmail.svg';
 import download from './assets/download.svg';
 import resume from './assets/resume.pdf'
+import folder from './assets/folder.png'
 
 
 function App() {
@@ -101,13 +102,19 @@ function App() {
           I am also versed in technologies such as = [<br/>
           <span style={{color: "#D8BFD8"}}> &nbsp;React.js, Node.js, Express, MongoDB, Firebase, REST, Bootstrap, <br/>
           &nbsp;Git, Linux </span>
-          <br/>] <br/>
+          <br/>] <br/><br/>
+          Scroll Down to View my Projects
           <div className='blinker'></div>
         </div>
       </div>
 
       <div className='projects'>
-        
+        <div className='folder' onClick={()=>{
+          alert("yes")
+        }}>
+          <img src={folder} style={{}}/>
+          Projects
+        </div>
       </div>
 
     </div>

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e1e1e1;
 }
 
 code {
@@ -13,9 +14,6 @@ code {
 }
 
 .App{
-  background-color: #e1e1e1;
-  width: 100vw;
-  height: 100vh;
   display: flex;
   align-items: center;
   font-family:'Times New Roman', Times, serif;
@@ -152,4 +150,26 @@ code {
   50% {
     opacity: 0;
   }
+}
+
+.projects{
+  margin-top: 60px;
+  height: 200px;
+  font-family: "American Typewriter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: none; */
+}
+
+.projects .folder{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.projects .folder:hover{
+  background-color:#a3b9c8;
 }
