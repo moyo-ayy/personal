@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import headshot from './assets/MicrosoftTeams-image.png';
 import github from './assets/github.svg';
 import linkedin from './assets/linkedin.svg';
 import outlook from './assets/outlook.svg';
 import gmail from './assets/gmail.svg';
+import download from './assets/download.svg';
+import resume from './assets/resume.pdf'
 
 
 function App() {
@@ -65,7 +66,48 @@ function App() {
         </div>
       </div>
 
-      <div className='resume-downloader'>     
+      <div className='resume-downloader'>
+        <a href={resume} download="resume.pdf" type="application/pdf">
+          <button className='btn'> Resume <img src={download} alt=''/></button>
+        </a>
+      </div>
+
+      <div className='description'>
+        <div className='top'>
+          <div className='circle' style={{backgroundColor: "red"}}></div>
+          <div className='circle' style={{backgroundColor: "yellow"}}></div>
+          <div className='circle' style={{backgroundColor: "green"}}></div>
+        </div>
+        <div className='bottom'>
+          Hello, My name is
+          <span style={{color: "#ADD8E6"}}> Moyosoreoluwa Ayoade </span>
+          and I attend the
+          <span style={{color: "#98FB98"}}> University of South Florida </span>
+          expected to graduate in
+          <span style={{color: "#98FB98"}}> May 2025; </span>
+          <br/><br/>
+          set GPA = 4.0;
+          <br/><br/>
+          Relevant Courses = [<br/>
+          <span style={{color: "#FFC0CB"}}> &nbsp;Computer Logic and Design, Data Structures,<br/>
+          &nbsp;Program Design, Database Design, Computer Architecture, <br/>
+          &nbsp;Software Testing </span>
+          <br/>]
+          <br/><br/>
+          I am proficient in = [<br/>
+          <span style={{color: "#FFFF00"}}> &nbsp;Python, HTML/CSS, JavaScript, C/C++, SQL </span>
+          <br/>]
+          <br/><br/>
+          I am also versed in technologies such as = [<br/>
+          <span style={{color: "#D8BFD8"}}> &nbsp;React.js, Node.js, Express, MongoDB, Firebase, REST, Bootstrap, <br/>
+          &nbsp;Git, Linux </span>
+          <br/>] <br/>
+          <div className='blinker'></div>
+        </div>
+      </div>
+
+      <div className='projects'>
+        
       </div>
 
     </div>
