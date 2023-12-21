@@ -103,7 +103,7 @@ function App() {
           <span style={{color: "#D8BFD8"}}> &nbsp;React.js, Node.js, Express, MongoDB, Firebase, REST, Bootstrap, <br/>
           &nbsp;Git, Linux </span>
           <br/>] <br/><br/>
-          Scroll Down to View my Projects
+          Scroll Down to View my Experience
           <div className='blinker'></div>
         </div>
       </div>
