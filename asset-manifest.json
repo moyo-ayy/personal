@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal/static/css/main.30ee2aab.css",
+    "main.js": "/personal/static/js/main.c478551d.js",
+    "static/js/787.2b0087e0.chunk.js": "/personal/static/js/787.2b0087e0.chunk.js",
+    "static/media/MicrosoftTeams-image.png": "/personal/static/media/MicrosoftTeams-image.f50cfe120929fd9f577d.png",
+    "static/media/resume.pdf": "/personal/static/media/resume.f80819d6667edaa9f01d.pdf",
+    "static/media/github.svg": "/personal/static/media/github.3ecf27711255ef69c6785f9440457d46.svg",
+    "static/media/linkedin.svg": "/personal/static/media/linkedin.cbd44c6b10b24faa22f1045865368dc0.svg",
+    "static/media/outlook.svg": "/personal/static/media/outlook.58e562468c1d249453e85ecaa1e91480.svg",
+    "static/media/gmail.svg": "/personal/static/media/gmail.e6ddfac94aadca00d41c5070fc24f187.svg",
+    "static/media/doc.svg": "/personal/static/media/doc.ef84052ac35e5ec79738d617ca7b803b.svg",
+    "static/media/download.svg": "/personal/static/media/download.c02d3a1680e55e495ca518602f2a68c1.svg",
+    "index.html": "/personal/index.html",
+    "main.30ee2aab.css.map": "/personal/static/css/main.30ee2aab.css.map",
+    "main.c478551d.js.map": "/personal/static/js/main.c478551d.js.map",
+    "787.2b0087e0.chunk.js.map": "/personal/static/js/787.2b0087e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30ee2aab.css",
+    "static/js/main.c478551d.js"
+  ]
+}
